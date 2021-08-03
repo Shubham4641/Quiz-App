@@ -1,0 +1,11 @@
+.container {
+    height:600px;
+    width:700px;
+    border: 2px solid black;
+    border-radius: 3px;
+    margin:auto;
+    text-align: center;
+    align-items: center;
+    background-image: url("../src/store/image.jpg");
+
+}

@@ -1,0 +1,17 @@
+  
+.result {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 60vh;
+    text-align: center;
+}
+
+.title {
+  
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+  font-weight: bold;
+  font-size: xx-large;
+
+}

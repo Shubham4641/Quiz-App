@@ -1,0 +1,39 @@
+.content {
+    
+    justify-content: space-around;
+    align-items: center;
+}
+
+.settings {
+    width:30%;
+    padding:10px;
+    display: flex;
+    flex-direction: column;
+    font-weight: 300;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.image {
+    justify-content: space-around;
+    width:50%;
+    height:50%;
+}
+
+.settings_select {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 70%;
+    flex:0.8;
+    justify-content: space-evenly;
+}
+
+@media(max-width: 800px) {
+    .content {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+}
